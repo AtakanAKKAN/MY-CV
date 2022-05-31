@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #E4F9F5; */
+}
+
+hr {
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: dotted;
+  border-color: #010F1B;
+  border-width: 13px;
+  width: 8%;
+  /* margin-top: 25px; */
+  text-align: center;
+  /* background-color: #E4F9F5; */
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+/* #####################################Stage1################################################### */
+/* #####################################Stage1################################################### */
+
+.firststage{
+  height: 95vh;
+  width: 100%;
+  background-color: #E4F9F5;
+  position: relative;
+  width: 100%;
+}
+
+.cloud1{
+  position: absolute;
+  width: 16%;
+  top: 15%;
+  right: 25%;
+}
+
+.cloud2{
+  position: absolute;
+  width: 16%;
+  top: 32%;
+  left: 20%;
+}
+
+.mountain{
+  position: absolute;
+
+}
+
+.selam{
+  width: 19%;
+  position: absolute;
+  left: 2%;
+}
+
+.container .center{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.container .center h1{
+  color: black;
+ font-size: 4.375rem;
+ font-weight: bold;
+ /* width: 900px; */
+ text-align: center;
+ font-family: 'Sacramento', cursive;
+ margin: 1rem;
+}
+
+.center h3{
+  color: #6A6A6A;
+  font-size: 50px;
+  font-weight: bold;
+  /* width: 885px; */
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 1.5rem;
+}
+
+.hrrule{
+  height: 5vh;
+  background-color: #E4F9F5;
+}
+
+.hrrule hr{
+  background-color: #E4F9F5;
+}
+
+/* ################################STAGE-2################################################ */
+.secondstage{
+  height: 55vh;
+  background-color: #FFD6EB;
+  position: relative;
+  width: 100%;
+}
+
+.tanıtım{
+  width: 20%;
+  position: relative;
+  left: 39%;
+  display: block;
+}
+
+.aboutme p{
+  font-size: 1.5rem;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+}
+
+.container-2 hr{
+  padding-top: 1%;
+  background-color:
+}
+
+.hrrule1{
+  height: 7vh;
+  background-color: #FFD6EB;
+  padding-top: 1%;
+}
+
+.hrrule1 hr{
+  background-color: #FFD6EB;
+}
+
+/* ################################STAGE-3################################################# */
+.thirdstage{
+  height: 100vh;
+  background-color: #FBFFC5;
+}
+
+.container-3{
+  padding-top: 2%;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+}
+.container-3 h1{
+ font-family: 'Indie Flower', cursive;
+ font-size: 4rem;
+ font-weight: bold;
+}
+.skill1{
+  width: 50%;
+  height: 50%;
+  margin-right: 6%;
+  margin-top: 6%;
+}
+.skill2{
+  width: 45%;
+  height: 45%;
+  margin-right: 6%;
+  margin-top: 6%;
+}
+.order1{
+  display: inline-flex;
+}
+
+.order1 ul li{
+  text-align: center;
+  /* margin-bottom: 25%; */
+  margin-top: 25%;
+  margin-right: 10%;
+  list-style: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2rem;
+}
+
+.order2{
+  display: inline-flex;
+}
+
+.order2 ul li{
+  text-align: center;
+  margin-top: 20%;
+  margin-right: 15%;
+  list-style: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2rem;
+}
+
+.hrrule2{
+height: 7vh;
+padding-top: 1%;
+background-color: #FBFFC5;
+}
+
+.hrrule2 hr{
+  background-color: #FBFFC5;
+}
+
+/* #####################################STAGE-4######################################### */
+
+.fourstage{
+height: 55vh;
+background-color: #E8DFF3;
+}
+
+.container-4{
+  padding-top: 1.5%;
+}
+
+.list4 ul li{
+ margin-top: 4%;
+ font-family: 'Lato';
+ font-style: bold;
+}
+
+.iletişim{
+  width: 60%;
+  margin-left: 40%;
+}
+
+.list4{
+  margin-top: 2%;
+}
+
+.list4 ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.list4 ul li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/* ###################################MEDİA STAGE############################################# */
+/* ###################################MEDİA STAGE############################################# */
+@media (max-width: 945.28px) {
+  .cloud1{
+    right: 12%;
+    width: 20%;
+  }
+  .cloud2{
+    top: 40%;
+    left: 15%;
+    width: 20%;
+  }
+  .selam{
+    width: 25%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .thirdstage{
+    height: 151vh;
+  }
+
+  .skill1{
+    margin-right: 16%;
+  }
+  .fourstage{
+    height: 45vh;
+  }
+}
+
+@media (max-width: 577.28px) {
+  .cloud1{
+    right: 12%;
+    width: 23%;
+  }
+  .cloud2{
+    top: 40%;
+    left: 10%;
+    width: 23%;
+  }
+
+  .selam{
+    width: 32%;
+  }
+
+  .thirdstage{
+    height: 130vh;
+  }
+  .skill1{
+    margin-right: 6%;
+  }
+  .fourstage{
+    height: 35vh;
+  }
+}
+
+.row{
+  padding: 0 !important;
+  margin: 0 !important;
+}
